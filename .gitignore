@@ -447,8 +447,9 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.cache
-*.cache
-bin/*
-.bin/*
-obj/*
-.obj/*
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
