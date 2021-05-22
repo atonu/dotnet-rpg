@@ -453,3 +453,7 @@ _ReSharper.*
 bin
 obj
 packages
+packages/*
+bin/*
+obj/*
+packages/*
