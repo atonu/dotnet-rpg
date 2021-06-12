@@ -27,3 +27,5 @@ D:\dotnet\dotnet-rpg\obj\Debug\net5.0\dotnet-rpg.dll
 D:\dotnet\dotnet-rpg\obj\Debug\net5.0\ref\dotnet-rpg.dll
 D:\dotnet\dotnet-rpg\obj\Debug\net5.0\dotnet-rpg.pdb
 D:\dotnet\dotnet-rpg\obj\Debug\net5.0\dotnet-rpg.genruntimeconfig.cache
+D:\dotnet\dotnet-rpg\bin\Debug\net5.0\AutoMapper.dll
+D:\dotnet\dotnet-rpg\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
