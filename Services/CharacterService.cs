@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -42,6 +43,31 @@ namespace dotnet_rpg.Services
         {
             var serviceResponse = new ServiceResponse<GetCharacterDto>();
             serviceResponse.Data = _mapper.Map<GetCharacterDto>(characters.FirstOrDefault(c => c.Id == id));
+            return serviceResponse;
+        }
+
+        public async Task<ServiceResponse<GetCharacterDto>> UpdateCharacter(UpdateCharacterDto updateCharacterDto)
+        {
+            var serviceResponse = new ServiceResponse<GetCharacterDto>();
+            try
+            {
+
+                Character character = characters.FirstOrDefault(c => c.Id == updateCharacterDto.Id);
+
+                character.Name = updateCharacterDto.Name;
+                character.HitPoints = updateCharacterDto.HitPoints;
+                character.Strength = updateCharacterDto.Strength;
+                character.Defense = updateCharacterDto.Defense;
+                character.Intelligence = updateCharacterDto.Intelligence;
+                character.Class = updateCharacterDto.Class;
+
+                serviceResponse.Data = _mapper.Map<GetCharacterDto>(character);
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = ex.Message;
+            }
             return serviceResponse;
         }
     }
