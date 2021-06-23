@@ -45,7 +45,7 @@ namespace dotnet_rpg.Controllers
             {
                 return NotFound(response);
             }
-            return Ok();
+            return Ok(response);
         }
 
         [HttpDelete("{id}")]
