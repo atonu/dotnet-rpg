@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj": {}
+    "d:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj": {}
   },
   "projects": {
-    "D:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj": {
+    "d:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
+        "projectUniqueName": "d:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
         "projectName": "dotnet-rpg",
-        "projectPath": "D:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
+        "projectPath": "d:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet\\dotnet-rpg\\obj\\",
+        "outputPath": "d:\\dotnet\\dotnet-rpg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
