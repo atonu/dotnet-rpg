@@ -455,5 +455,8 @@ obj
 packages
 packages/*
 bin/*
+.bin/*
 obj/*
+.obj/*
 packages/*
+.packages/*
