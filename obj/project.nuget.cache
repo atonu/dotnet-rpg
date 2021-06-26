@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t+w5L+Aw8yJRZerP1aF+v7tFgt8y5DWpSDNbAbkoN8e4jhNk21iGLf7x1aj0R1CkSYXTT3Qw3ijdWuv5F3iDQw==",
+  "dgSpecHash": "/j8PwUmzSVzPYHPV0wvR/AUiJeAuY5hqHn8D3xcZ5sWLcTftEK3a2+h7RaXRTh3F98yvMA9nr6jyfGDlBSOaEA==",
   "success": true,
-  "projectFilePath": "D:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
+  "projectFilePath": "d:\\dotnet\\dotnet-rpg\\dotnet-rpg.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmed\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
