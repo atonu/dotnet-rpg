@@ -3,7 +3,7 @@ using dotnet_rpg.Data;
 using dotnet_rpg.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace dotnet_rpg.Dtos.Character
+namespace dotnet_rpg.Data
 {
     public class AuthRepository : IAuthRepository
     {

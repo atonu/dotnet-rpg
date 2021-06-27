@@ -12,11 +12,11 @@ namespace dotnet_rpg.Services
 {
     public class CharacterService : ICharacterService
     {
-        // private static List<Character> characters = new List<Character>
-        // {
-        //     new Character(),
-        //     new Character { Id=1, Name = "Sam", Class = RpgClass.Cleric}
-        // };
+        private static List<Character> characters = new List<Character>
+        {
+            new Character(),
+            new Character { Id=1, Name = "Sam", Class = RpgClass.Cleric}
+        };
         private readonly IMapper _mapper;
         private readonly DataContext _context;
 

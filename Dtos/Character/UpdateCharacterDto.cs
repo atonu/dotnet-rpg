@@ -1,6 +1,6 @@
 using dotnet_rpg.Models;
 
-namespace dotnet_rpg.Services
+namespace dotnet_rpg.Dtos.Character
 {
     public class UpdateCharacterDto
     {
