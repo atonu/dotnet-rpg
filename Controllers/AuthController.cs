@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using dotnet_rpg.Data;
 using dotnet_rpg.Dtos.Character;
+using dotnet_rpg.Dtos.User;
 using dotnet_rpg.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,20 @@ namespace dotnet_rpg.Controllers
         {
             var response = await _authRepo.Register(
                 new User { Username = request.UserName }, request.Password
+            );
+            if (!response.Success)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("Login")]
+        public async Task<ActionResult<ServiceResponse<string>>> Login(UserLoginDto request)
+        {
+            var response = await _authRepo.Login(
+                request.UserName, request.Password
             );
             if (!response.Success)
             {

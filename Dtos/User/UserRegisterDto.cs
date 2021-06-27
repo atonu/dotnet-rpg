@@ -1,4 +1,4 @@
-namespace dotnet_rpg.Dtos.Character
+namespace dotnet_rpg.Dtos.User
 {
     public class UserRegisterDto
     {
